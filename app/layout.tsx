@@ -13,47 +13,50 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "KITTO | Book Cover Rolls & Unbreakable Clip Boards",
+  title: {
+    default: "KITTO | Book Cover Roll Manufacturer",
+    template: "%s | KITTO",
+  },
 
   description:
-    "KITTO manufactures premium book cover rolls, school brown sheet rolls, synthetic book covers, and unbreakable clip boards in India.",
+    "SHUB IMPEX is a premium manufacturer of waterproof book cover rolls, brown sheet rolls and unbreakable clip boards in Ahmedabad, Gujarat.",
 
   keywords: [
-    "Book Cover Rolls",
-    "Clip Board Manufacturer",
-    "School Brown Sheet Roll",
+    "book cover roll manufacturer",
+    "waterproof book cover",
+    "clip board manufacturer",
+    "school stationery supplier",
+    "Ahmedabad stationery manufacturer",
+    "SHUB IMPEX",
     "KITTO",
-    "Unbreakable Clipboard",
-    "Synthetic Book Cover",
-    "School Stationery Manufacturer",
   ],
 
-  authors: [{ name: "KITTO" }],
-
-  creator: "KITTO",
-
-  metadataBase: new URL("https://yourdomain.com"),
+  metadataBase: new URL("https://kitto.co.in"),
 
   openGraph: {
-    title: "KITTO | Book Cover Rolls & Unbreakable Clip Boards",
+    title: "KITTO",
     description:
-      "Premium manufacturer of book cover rolls & clip boards in India.",
-    url: "https://yourdomain.com",
+      "Premium school stationery manufacturer in India.",
+    url: "https://kitto.co.in",
     siteName: "KITTO",
-    type: "website",
     locale: "en_IN",
+    type: "website",
   },
 
   twitter: {
     card: "summary_large_image",
     title: "KITTO",
     description:
-      "Premium manufacturer of book cover rolls & clip boards in India.",
+      "Premium school stationery manufacturer in India.",
   },
 
   robots: {
     index: true,
     follow: true,
+  },
+
+  alternates: {
+    canonical: "https://kitto.co.in",
   },
 };
 

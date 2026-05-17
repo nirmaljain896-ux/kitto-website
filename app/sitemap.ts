@@ -1,7 +1,7 @@
 export default function sitemap() {
   return [
     {
-      url: 'https://yourdomain.com',
+      url: 'https://kitto.co.in',
       lastModified: new Date(),
     },
   ];
