@@ -29,6 +29,10 @@ export const metadata: Metadata = {
     "Ahmedabad stationery manufacturer",
     "SHUB IMPEX",
     "KITTO",
+    "Shub impex paper roll",
+    "Shub impex plastic roll",
+    "Shub impex dot dot roll",
+    "Shub impex paper roll"
   ],
 
   metadataBase: new URL("https://kitto.co.in"),
