@@ -871,7 +871,7 @@ export default function HomePage() {
           </div>
 
           {/* Center Image */}
-          <div className="flex justify-center items-center">
+          {/* <div className="flex justify-center items-center">
             <div className="relative w-full max-w-[500px]">
 
               <div className="absolute inset-0 bg-[#2E3192]/10 rounded-[40px] blur-3xl scale-105"></div>
@@ -887,7 +887,7 @@ export default function HomePage() {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Right Card */}
           <div className="bg-white rounded-[30px] p-10 shadow-2xl">
